@@ -1,3 +1,6 @@
+- name: Fix Git Config
+  run: |
+    git config --global --unset http.https://github.com/.extraheader
 name: Azure Static Web Apps CI/CD
 
 on:
